@@ -1,6 +1,6 @@
 {
   "name": "@mh-cbon/getent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "getent to json",
   "main": "index.js",
   "bin": {
