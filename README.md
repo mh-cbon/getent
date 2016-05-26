@@ -21,9 +21,9 @@ Provides `getent` response parsing to JSON.
   var keys = ['amd.com'];
 
   jgetent(opts, db, keys, function (code, err, data) {
+    process.exitCode = parseInt(code);
     if (code!==0) err && console.error(err);
     else data && console.log(JSON.stringify(data, null, 2));
-    if(code!==0) process.exit(code);
   });
 ```
 
